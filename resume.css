@@ -1,0 +1,36 @@
+* {margin-left: 30px;}
+/*Font was pulled from google <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet"> font is described as Sriracha cursive, I'll probably change this later*/
+h1 {color:white ;}
+
+h3 {color: white}
+
+h3 {background-color: navy; 
+    width: auto;
+border: 0px;
+padding: 35px;
+    margin: 15px;}
+
+h1 {background-color: navy; 
+    width: auto;
+border: 0px;
+padding: 35px;
+    margin: 15px;}
+
+li {background-color:lightgrey;
+width: auto;
+border: 0px;
+padding: 10px;
+margin: 15px;}
+
+.info{background-color: navajowhite;
+    color:navy;
+width: auto;
+    border: 0px;
+    padding: 5px;
+    margin: 8px;
+}
+
+img {display: block;
+margin-left: auto;
+margin-right: auto;
+}
