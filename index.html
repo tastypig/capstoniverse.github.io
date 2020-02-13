@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="resume.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <style> html { font-family: 'Roboto Slab', serif;} </style>
+    <title>maxwell mccullough's resume</title>
+</head>
+    <body>
+        <header><h1>Maxwell McCullough</h1></header>
+<section><div class="info"><h4>Address:</h4></div> <ul>
+    <li>5484 Cloverfield ST, Brexton Ohio</li></ul>
+    <div class="info"><H4>Phone:</H4></div> <ul>
+    <li>330-867-5309</li></ul>
+    <div class="info"><h4>E-mail:</h4> </div> <ul>
+    <li>mm@hotmail.com</li></ul>
+    <div class="info"><h4>Facebook:</h4></div> <ul>
+    <li>motorcyclerider.facebook.com</li></ul>
+    <div class="info"><h4>LinkedIn:</h4></div> <ul>
+    <li>linkedin.com/in/mm</li></ul>
+    </section>
+<section><h3 id="pizza">Work Experience</h3><ul>
+<li>Pizza hut: 2002-2008 </li>
+<li>Target: 2009-2010</li>
+<li>Verizon: 2010-2014</li>
+        <li><a href="https://bestbuy.com/">Best Buy</a>: 2014-2018.</li>
+<li>Very personable and works well with others. While also being professional. Enjoys helping others with technology related problems. And is also very willing to learn and adapt.</li> </ul>
+</section>
+<section>   <h3>Education</h3><ul>
+<li>Graduate of Brexton High School in 2009.</li>
+    <li>Kent State University: 2011-Current Day.</li><ul>
+	<li>Currently in the process of achieving a BS in DSCI (I.T.).</li>
+	<li>Awarded and Associates of Science</li>
+    <li>Current GPA – 3.15.</li>
+   </ul>
+        </ul></section>
+<section><h3>Skills</h3><ul>
+	<li>Desktop computer building.</li>
+	<li>Ability to problem solve.</li>
+	<li>Proficient in use of Microsoft Word, Excel, and PowerPoint.</li>
+        <li>Ability to work under stress. </li> </ul></section>
+<section><h3>References</h3><ul>
+	<li><a href="https://bierycheese.com/">Biery Cheese</a>: Bobby brown<br>
+	Phone: 330-888-8888</li>
+    <br>
+        <li><a href="https://www.finishline.com/">Finishline</a>: Tom phillips<br>
+        Phone: 330-867-5309</li></ul>
+        <img id='burrito' src="https://mcn-images.bauersecure.com/upload/260239/images/540x360/BMW-F800ST-2.jpg" alt="BMW motorcycle" onclick="change()">
+   
+        <!-- Look at that Beemer!</!-->
+    </section>
+        <script>
+            var image_tracker ='f';
+            function change(){
+        var image = document.getElementById('burrito');
+         if(image_tracker=='f'){
+             image.src = 'https://www.cycleworld.com/resizer/o38V8SgPaB392RF14f4wPUGNriY=/760x342/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/IBDXU2XBZRZFVJA2X7TQOATUWA.jpg';
+         image_tracker = 's';}else{image.src ='https://mcn-images.bauersecure.com/upload/260239/images/540x360/BMW-F800ST-2.jpg';
+                                  image_tracker = 'f';}
+         }
+        </script>
+        
+       <!-- This was an idea to have the background change color on click. I then realized that this idea was one of your examples so I decided to go in a different direction
+<script>function changeBg(color){document.style.background = color;}</script>
+        <button type='button' onclick="document.getElementById('html').style.backgroundColor="> Click me to change the background!</button>
+        <button type="button" onclick="changePageBg('grey');">Background change</button>
+        -->
+        <!-- 
+NOTE: I was trying to create a button where you can repeatedly click it and get the image to disapear and reappear upon each click. I couldnt get it to work but if you have any idea for code I would be interested!
+<button type="button" onclick="myFunction()">Click me!</button>
+        <script>function myFunction() {
+                var a = document.getElementById('burrito')
+                if (a.display === "block"){
+                    a.display = "none";} else {
+                        a.display = "block";
+                    }
+            }
+           </script>
+           --> 
+        </body>
+    
+</html>
