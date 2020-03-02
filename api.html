@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<h1>The ultimate man</h1>
+    
+   <button type="button" onclick="loadDoc()" >Chuck Norris is the best</button>
+
+<p id="norris"></p>
+    </head>
+    <body>
+<body style="background-color:cadetblue;">
+<script> function loadDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+     if (this.readyState == 4 && this.status == 200){   
+    document.getElementById("norris").innerHTML = this.responseText;
+         
+       { alert('MURICA:' + xmlhttp.status)
+        alert('CHUCK NORRIS BABY:' + xmlhttp.statusText)}
+       
+    }
+  };
+  xmlhttp.open("GET", "http://api.icndb.com/jokes/random", true);
+  xmlhttp.send(null);};
+</script>
+
+        
+
+</body>
+    </body>
+</html>
